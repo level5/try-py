@@ -26,8 +26,8 @@
       <file leaf-file-name="about_BeautifulSoup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/beautifulsoup/about_BeautifulSoup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -133,6 +133,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -144,7 +146,7 @@
       <recent name="C:\github\try-py\tests\beautifulsoup" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest BeautifulSoupTest.test_tag_attribute">
+  <component name="RunManager" selected="Python tests.Unittest BeautifulSoupTest.test_tag">
     <configuration default="false" name="Unittests in about_BeautifulSoup" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -398,9 +400,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest BeautifulSoupTest.test_tag_attribute" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest BeautifulSoupTest.test_tag_name" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest BeautifulSoupTest.test_tag" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest BeautifulSoupTest.test_tag" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest BeautifulSoupTest.test_tag_attribute" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest BeautifulSoupTest.test_tag_name" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest BeautifulSoupTest.test_tag (1)" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in about_BeautifulSoup" />
       </list>
@@ -420,35 +422,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 01h 06m 51s.xml">
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 13m 12s.xml">
       <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 01h 07m 18s.xml">
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 13m 20s.xml">
       <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 01h 09m 57s.xml">
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 13m 26s.xml">
       <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 01h 13m 33s.xml">
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 13m 29s.xml">
       <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag_(1) - 2016.11.01 at 01h 13m 18s.xml">
-      <configuration name="Unittest BeautifulSoupTest.test_tag (1)" configurationId="tests" />
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 13m 34s.xml">
+      <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag_attribute - 2016.11.01 at 01h 15m 23s.xml">
-      <configuration name="Unittest BeautifulSoupTest.test_tag_attribute" configurationId="tests" />
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 13m 44s.xml">
+      <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag_attribute - 2016.11.01 at 01h 15m 45s.xml">
-      <configuration name="Unittest BeautifulSoupTest.test_tag_attribute" configurationId="tests" />
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 13m 48s.xml">
+      <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag_attribute - 2016.11.01 at 01h 16m 09s.xml">
-      <configuration name="Unittest BeautifulSoupTest.test_tag_attribute" configurationId="tests" />
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 13m 55s.xml">
+      <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag_attribute - 2016.11.01 at 01h 16m 45s.xml">
-      <configuration name="Unittest BeautifulSoupTest.test_tag_attribute" configurationId="tests" />
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 14m 26s.xml">
+      <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BeautifulSoupTest_test_tag_name - 2016.11.01 at 01h 13m 56s.xml">
-      <configuration name="Unittest BeautifulSoupTest.test_tag_name" configurationId="tests" />
+    <history-entry file="Unittest_BeautifulSoupTest_test_tag - 2016.11.01 at 07h 15m 34s.xml">
+      <configuration name="Unittest BeautifulSoupTest.test_tag" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -460,7 +462,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -540,13 +542,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/beautifulsoup/about_BeautifulSoup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
