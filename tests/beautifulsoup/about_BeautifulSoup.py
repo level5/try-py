@@ -125,6 +125,19 @@ class BeautifulSoupTest(unittest.TestCase):
 
         # .descendants 所有的子孙节点
 
+        # .parent和.parents
 
+        # .next_sibling .previous_sibling
 
+        # .next_siblings .previous_siblings
+
+        # .next_element .previous_element
+
+    def test_find_all(self):
+        soup = BeautifulSoup(html_doc, PARSER)
+        tags = soup.find_all('b')
+
+        self.assertEqual(["The Dormouse's story"], [tag.text for tag in tags])
+
+    
 
