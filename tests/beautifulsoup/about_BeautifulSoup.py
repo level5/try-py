@@ -2,6 +2,8 @@ import unittest
 import bs4
 from bs4 import BeautifulSoup
 
+PARSER = "html5lib"
+
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
 <body>
@@ -17,6 +19,7 @@ and they lived at the bottom of a well.</p>
 """
 
 
+# TODO: asert中的expect和actual都写反了
 class BeautifulSoupTest(unittest.TestCase):
     """
     运行case需要安装的两个包：
@@ -24,7 +27,7 @@ class BeautifulSoupTest(unittest.TestCase):
     pip3 install html5lib==1.0b8
     """
     def test_example(self):
-        soup = BeautifulSoup(html_doc, "html5lib")
+        soup = BeautifulSoup(html_doc, PARSER)
 
         self.assertEqual(soup.title.name, "title")
         self.assertEqual(soup.title.get_text(), "The Dormouse's story")
@@ -73,9 +76,42 @@ class BeautifulSoupTest(unittest.TestCase):
         # python3中unicode() 在哪里？
         # unicode(tag.string)
 
-        # 同样可以通过赋值的方式来修改属性
+        # 可以使用replace_with(new_str)来替换
+        tag.string.replace_with('b3')
+        self.assertEqual(str(soup),
+                         '<html><head></head><body><b>b3</b></body></html>')
 
         # 如果想在Beautiful Soup之外使用 NavigableString 对象,
         # 需要调用 unicode() 方法,将该对象转换成普通的Unicode字符串,
         # 否则就算Beautiful Soup已方法已经执行结束,
         # 该对象的输出也会带有对象的引用地址.这样会浪费内存.
+
+    def test_beautiful_soup_object(self):
+        soup = BeautifulSoup('<b>b2</b>', "html5lib")
+
+        self.assertEqual('[document]', soup.name)
+
+        # 支持遍历文档，和搜索文档
+
+    def test_comment(self):
+        soup = BeautifulSoup("<b><!--Hey, buddy. Want to buy a used parser?--></b>", "html5lib")
+        comment = soup.b.string
+
+        self.assertEqual(bs4.element.Comment, type(comment))
+
+    def test_traverse(self):
+        soup = BeautifulSoup(html_doc, PARSER)
+
+        # 找到第一个tag
+        self.assertEqual("Elsie", soup.a.text)
+
+        # 嵌套
+        self.assertEqual("<b>The Dormouse's story</b>", str(soup.body.p.b))
+
+        # find_all查找所有
+        all_a = soup.find_all('a')
+        self.assertEqual(['Elsie', 'Lacie', 'Tillie'], [a.text for a in all_a])
+
+        # contents和.children()
+
+
