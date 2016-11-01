@@ -55,6 +55,7 @@ class NameSpaceTest(unittest.TestCase):
     def test_keyword_global2(self):
         """global关键字会将变量直接绑定到module的全局变量上，会跳过外层scope的变量"""
         module_global = 42
+
         def change():
             global module_global
             module_global = 44
@@ -65,6 +66,7 @@ class NameSpaceTest(unittest.TestCase):
     def test_keyword_nonlocal(self):
         """nonlocal关键字可以将变量绑定到当前scope的外层scope的变量上"""
         module_global = 41
+
         def change():
             nonlocal module_global
             module_global = 44

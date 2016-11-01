@@ -1,5 +1,6 @@
 import unittest
 
+
 class BasicKnowledgeTest(unittest.TestCase):
 
     def test_built_in_type_func(self):
@@ -8,9 +9,9 @@ class BasicKnowledgeTest(unittest.TestCase):
 
     def test_int_could_be_any(self):
         """int可以是任意大的数"""
-        number = 10**100
+        number = 10**90
         self.assertEqual(str(number),
-            '10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+                         '1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
 
     def test_is(self):
         """is 判断的是两个变量是否指向一个对象，==是判断两个对象是否相等，和class的__eq__方法的实现有关"""

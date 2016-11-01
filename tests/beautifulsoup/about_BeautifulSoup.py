@@ -86,6 +86,15 @@ class BeautifulSoupTest(unittest.TestCase):
         # 否则就算Beautiful Soup已方法已经执行结束,
         # 该对象的输出也会带有对象的引用地址.这样会浪费内存.
 
+        # 如果tag只有一个子节点，.string可以输出
+        # 如果tag有多个子节点，.string不知道输出谁，输出的是None
+
+    def test_tag_strings(self):
+        pass
+
+    def test_tag_stripped_strings(self):
+        pass
+
     def test_beautiful_soup_object(self):
         soup = BeautifulSoup('<b>b2</b>', "html5lib")
 
@@ -112,6 +121,10 @@ class BeautifulSoupTest(unittest.TestCase):
         all_a = soup.find_all('a')
         self.assertEqual(['Elsie', 'Lacie', 'Tillie'], [a.text for a in all_a])
 
-        # contents和.children()
+        # .contents和.children 直接子节点
+
+        # .descendants 所有的子孙节点
+
+
 
 
