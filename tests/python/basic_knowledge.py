@@ -3,6 +3,10 @@ import unittest
 
 class BasicKnowledgeTest(unittest.TestCase):
 
+    def test__name__(self):
+        """如果是顶级执行上下文,__name__等于__main__"""
+        self.assertEqual(__name__, 'tests.python.basic_knowledge')
+
     def test_built_in_type_func(self):
         a = 42
         self.assertEqual(type(a), int)
@@ -15,7 +19,7 @@ class BasicKnowledgeTest(unittest.TestCase):
 
     def test_is(self):
         """is 判断的是两个变量是否指向一个对象，==是判断两个对象是否相等，和class的__eq__方法的实现有关"""
-        class Word():
+        class Word:
             def __init__(self, text):
                 self.text = text
 
@@ -86,7 +90,7 @@ class BasicKnowledgeTest(unittest.TestCase):
         self.assertEqual([1, 2, 3, 4, 5], [number for number in my_range(1, 6)])
 
     def test_decorator(self):
-        """这个是怎么工作的，还真不是太明白，开始试验一下"""
+        """其实就相当于是把@后面的函数执行一下,下面的函数会被当做参数传入,然后返回一个新的函数来赋给下面这个函数名.当有多个注解时,靠近函数的先执行"""
         def print_func_name(pre):
             def print_func_name_in(fn):
                 def new_func():

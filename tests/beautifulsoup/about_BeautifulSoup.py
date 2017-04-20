@@ -139,5 +139,11 @@ class BeautifulSoupTest(unittest.TestCase):
 
         self.assertEqual(["The Dormouse's story"], [tag.text for tag in tags])
 
+    # find和前面提到的方法结合
+
+    # css选择器
+
+    # 修改文档的内容
+
     
 
