@@ -49,3 +49,5 @@ class RegexTest(unittest.TestCase):
         p = re.compile(r"\d+")
         p2 = re.compile("\\d+")
         self.assertEqual(p, p2)
+
+    print(2**32 / 1024 / 1024/1024)
