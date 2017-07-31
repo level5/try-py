@@ -148,7 +148,7 @@ class NameSpaceTest(unittest.TestCase):
         self.assertEqual(kain.name, 'KAIN')
 
     def test_keep_name_hidden(self):
-        "使用__xxx,可以隐藏属性名，属性名被转移到_Duck__xxx??? 这个测试下来怎么是错误的？"
+        """使用__xxx,可以隐藏属性名，属性名被转移到_Duck__xxx??? 这个测试下来怎么是错误的？"""
         class Person:
             def __init__(self, name):
                 self.__name = name
